@@ -209,4 +209,5 @@ __marimo__/
 
 # NPU Build files
 
-*.elf
+# Ignore ELF binaries anywhere in the repository (including subfolders)
+**/*.elf
